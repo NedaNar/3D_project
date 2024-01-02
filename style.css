@@ -1,0 +1,33 @@
+#introWindow {
+  background-image: url("./images/start.png");
+  background-size: cover;
+  position: absolute;
+  width: 400px;
+  height: 533px;
+  top: -70%;
+  left: 36%;
+  transform: translate(0%, 0%);
+  transition: all 1s ease;
+  pointer-events: none;
+  border-radius: 16px;
+  box-shadow: 0 0 200px rgba(0, 0, 0, 1); /* Box shadow with 20px blur and 50% opacity */
+}
+
+#playButton {
+  width: 220px;
+  height: 60px;
+  margin-left: 90px;
+  margin-top: 433px;
+  border-radius: 30px;
+  pointer-events: auto;
+  background-color: black;
+  border: none;
+  color: white;
+  font-size: 20px;
+  font-family: "OpenSans";
+  cursor: pointer;
+}
+
+#playButton:hover {
+  background-color: #394d6d;
+}

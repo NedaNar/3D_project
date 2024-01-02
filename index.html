@@ -2,7 +2,8 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>Slippy Piggy</title>
+    <title>Pigookie</title>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
     <style>
       body {
         margin: 0;
@@ -19,6 +20,13 @@
   </head>
 
   <body>
-    <script type="module" src="main.js"></script>
+    <div>
+      <script type="module" src="main.js"></script>
+      <audio id="song" src="./sounds/pigSong.mp3"></audio>
+      <div id="introWindow">
+        <button id="playButton" style="font-weight: bold">PLAY</button>
+      </div>
+    </div>
   </body>
+  <script src="./textScript.js"></script>
 </html>
