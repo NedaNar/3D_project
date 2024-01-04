@@ -7,7 +7,7 @@
   top: -70%;
   left: 36%;
   transform: translate(0%, 0%);
-  transition: all 1s ease;
+  transition: bottom 1s ease, top 1s ease;
   pointer-events: none;
   border-radius: 16px;
   box-shadow: 0 0 200px rgba(0, 0, 0, 1); /* Box shadow with 20px blur and 50% opacity */
